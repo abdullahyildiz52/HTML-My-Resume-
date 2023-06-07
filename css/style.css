@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap');
+
+body {
+    font-family: 'Merriweather',serif; /* google fonttan css rules olarak aldık */
+    padding: 20px;
+    font-size: 20px;
+}
+* {
+    box-sizing: border-box;
+} /* bunu yapmazsak kaymalar oluyor */
+
+a {
+    text-decoration: none;
+
+}
+
+input,textarea {
+border: 3px solid yellowgreen;
+border-radius: 10px;
+width: 100%;
+padding: 15px;
+}
+
+button {
+    border: 10px solid yellowgreen;
+    border-radius: 10px;
+    background-color: yellowgreen;
+    font-size: 30px;
+    color: yellow;
+    padding: 10px 30px;/* ilk parametre ust alt, ikinci sağ-sol uzaklığı belirler */
+}

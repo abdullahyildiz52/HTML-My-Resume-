@@ -1,0 +1,31 @@
+p {
+    font-size: 30px;
+    color: blueviolet;
+    background-color: rgb(218, 199, 226);
+    text-align: right;
+}
+/*  
+div {
+    border: 10px solid rgb(215, 16, 195);
+    width: 20%;
+    text-align: center;
+    background-color: rgb(221, 185, 216);
+    border-radius: 20px;
+    box-shadow: 10px 10px 30px orange ;
+}
+ */
+h1 {
+    text-shadow: -10px 10px 5px gray;
+}
+.container {
+    display: flex;
+    background-color: aqua;
+    padding: 10px;
+}
+.container div {
+    background-color: blue;
+    width: 160px;
+    height: 160px;
+    margin: 10px;
+
+}
