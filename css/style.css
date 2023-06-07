@@ -29,3 +29,35 @@ button {
     color: yellow;
     padding: 10px 30px;/* ilk parametre ust alt, ikinci sağ-sol uzaklığı belirler */
 }
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 3px solid yellowgreen;
+    background-color: yellow;
+    border-radius: 50px;
+    padding: 10px 30px;
+}
+.header .title {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* flex elemanlarının arasına boşluk koyar */
+}
+.menu a {
+    font-weight: 700;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content .About{
+    display: flex;
+    align-items: center;
+}
+.About img {
+width: 500px;
+height: 500px;
+border: 5px solid yellowgreen;
+border-radius: 250px;
+}

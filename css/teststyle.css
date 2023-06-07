@@ -21,11 +21,13 @@ h1 {
     display: flex;
     background-color: aqua;
     padding: 10px;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
 }
 .container div {
     background-color: blue;
     width: 160px;
     height: 160px;
     margin: 10px;
-
 }
