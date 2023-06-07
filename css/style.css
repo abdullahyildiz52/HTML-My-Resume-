@@ -4,6 +4,7 @@ body {
     font-family: 'Merriweather',serif; /* google fonttan css rules olarak aldık */
     padding: 20px;
     font-size: 20px;
+    background-color: rgb(127, 212, 215);
 }
 * {
     box-sizing: border-box;
@@ -26,7 +27,7 @@ button {
     border-radius: 10px;
     background-color: yellowgreen;
     font-size: 30px;
-    color: yellow;
+    color: rgb(80, 80, 26);
     padding: 10px 30px;/* ilk parametre ust alt, ikinci sağ-sol uzaklığı belirler */
 }
 .header {
@@ -54,10 +55,52 @@ button {
 .content .About{
     display: flex;
     align-items: center;
+    width: 70%;
+    padding: 40px;
+    gap: 30px;
 }
 .About img {
 width: 500px;
 height: 500px;
 border: 5px solid yellowgreen;
 border-radius: 250px;
+
+
+}
+.About .description {
+    display: flex;
+
+}
+.footer {
+    display: flex;
+    justify-content: space-around;
+    border-top: 5px dotted gray;
+    margin: 20px;
+}
+.section {
+    width: 60%;
+}
+.section .card {
+    display: flex;
+    border: 5px solid greenyellow;
+    border-radius: 50px;
+    background-color: yellow;
+    margin: 40px;
+    padding: 40px;
+    box-shadow: 10px 10px 25px rgb(45, 25, 25);
+}
+.section .card .left {
+    flex: 2;
+}
+.section .card .right {
+    flex: 1;
+}
+h1 {
+    text-shadow: 10px 10px 25px rgb(64, 38, 38);
+}
+.content h1 span{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: black;
 }
